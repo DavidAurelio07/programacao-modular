@@ -68,6 +68,22 @@ public class Pessoa {
         this.IMC= this.peso/(this.altura*this.altura);
         return this.IMC;
     }
+
+    public void InformaObesidade(){
+        if (this.IMC < 18.5){
+            System.out.println("Abaixo do peso");
+        }else if (this.IMC >= 18.5  && this.IMC <= 24.9){
+            System.out.println("Peso Normal");
+        }else if (this.IMC >= 25  && this.IMC <= 29.9){
+            System.out.println("Sobrepeso");
+        }else if (this.IMC >= 30  && this.IMC <= 34.9) {
+            System.out.println("Obesidade Grau 1");
+        }else if (this.IMC >= 35  && this.IMC <= 39.9){
+            System.out.println("Obesidade Grau 2");
+        }else{
+            System.out.println("Obesidade Grau 3");
+        }
+    }
 }
 
 
