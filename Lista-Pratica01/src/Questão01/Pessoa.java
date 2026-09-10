@@ -1,12 +1,12 @@
 package Questão01;
 
 public class Pessoa {
-    String nome;
-    String sobrenome;
-    int idade;
-    double altura;
-    double peso;
-    double IMC;
+    private String nome;
+    private String sobrenome;
+    private int idade;
+    private double altura;
+    private double peso;
+    private double IMC;
 
     public String getNome() {
         return nome;
