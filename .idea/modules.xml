@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lista-Pratica03/Lista-Pratica03.iml" filepath="$PROJECT_DIR$/Lista-Pratica03/Lista-Pratica03.iml" />
       <module fileurl="file://$PROJECT_DIR$/programacao-modular.iml" filepath="$PROJECT_DIR$/programacao-modular.iml" />
     </modules>
   </component>
